@@ -10,7 +10,7 @@ const BookingList = () => {
     const [booking, setBooking] = useState([])
 
     useEffect(() => {
-        fetch(`http://localhost:2020//bookingList?data.email=+loggedInUser.email`)
+        fetch(`http://localhost:2020/bookingList?data.email=+loggedInUser.email`)
             .then(res => res.json())
             .then(data => filteredOrder(data))
     }, [])

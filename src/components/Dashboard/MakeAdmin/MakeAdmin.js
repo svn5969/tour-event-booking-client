@@ -11,7 +11,7 @@ const MakeAdmin = () => {
     }
     const handleSubmit = e =>{
         e.preventDefault()
-        const url = 'http://localhost:2020//addAdmin'
+        const url = 'http://localhost:2020/addAdmin'
         fetch(url, {
             method: 'POST',
             headers: {

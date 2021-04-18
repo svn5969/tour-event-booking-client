@@ -5,7 +5,7 @@ import ReviewDetails from '../ReviewDetails/ReviewDetails';
 const Review = () => {
     const [reviewData, setReviewData] = useState([])
     useEffect(() => {
-        fetch('http://localhost:2020//reviewList')
+        fetch('http://localhost:2020/reviewList')
         .then (res => res.json())
         .then(data=> setReviewData(data))
     },[])

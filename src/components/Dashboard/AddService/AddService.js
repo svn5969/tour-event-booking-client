@@ -26,7 +26,7 @@ const AddService = () => {
         formData.append('name', services.name);
         formData.append('price', services.price);
         formData.append('desc', services.description);
-        fetch('http://localhost:2020//addService', {
+        fetch('http://localhost:2020/addService', {
             method: "POST",
             body: formData,
         })
@@ -64,7 +64,7 @@ const AddService = () => {
                         </div>
                         <div class="user-box">
                             <input onChange={handleImage} type="file" name="" required="" />
-                            <label>Service Name</label>
+                            <label>Place Name</label>
                         </div>
                         <input class="buttonStyle" type="submit" value="Submit"/>
                     </form>

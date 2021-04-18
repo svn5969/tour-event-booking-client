@@ -12,7 +12,7 @@ const ManageService = () => {
 
     // const handleDelete = (id) => {
     //     console.log("ID:", id)
-    //     fetch(`http://localhost:2020//service/${id}`, {
+    //     fetch(`http://localhost:2020/service/${id}`, {
     //         method: "DELETE"
     //     })
 
@@ -24,7 +24,7 @@ const ManageService = () => {
     // Niam vai 
 
     useEffect(() => {
-        fetch('http://localhost:2020//services')
+        fetch('http://localhost:2020/services')
             .then(res => res.json())
             .then(data => {
                 setManageService(data);
@@ -33,7 +33,7 @@ const ManageService = () => {
 
     const handleDelete = id =>
     {
-       id && fetch(`http://localhost:2020//services/${ id }`, {
+       id && fetch(`http://localhost:2020/services/${ id }`, {
             method: 'DELETE',
             headers: {
                 'content-type': 'application/json'

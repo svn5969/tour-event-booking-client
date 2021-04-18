@@ -8,7 +8,7 @@ const SimpleCardForm = ({ newService }) => {
 
     const handleOrder = (paymentId) => {
         const order = { ...newService, paymentId }
-        fetch('http://localhost:2020//bookOrder', {
+        fetch('http://localhost:2020/bookOrder', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json; charset=UTF-8',

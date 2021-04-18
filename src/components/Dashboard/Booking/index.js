@@ -19,7 +19,7 @@ const AddReview = () => {
             imageURL: imageURL
         };
  
-        const url =`http://localhost:2020//addReview`
+        const url =`http://localhost:2020/addReview`
  
         console.log(serviceDate)
  

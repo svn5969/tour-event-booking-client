@@ -17,7 +17,7 @@ const AddReview = () => {
             rating: data.rating,
             imageURL: imageURL
         };
-        const url = 'http://localhost:2020//addReview'
+        const url = 'http://localhost:2020/addReview'
         fetch(url, {
             method: 'POST',
             headers: {
@@ -31,7 +31,7 @@ const AddReview = () => {
     const handleImageUpload = event => {
         console.log(event.target.files[0]);
         const imageData = new FormData();
-        imageData.set('key', 'd2c0702a7fac0dcae408eabf0f66f049');
+        imageData.set('key', 'c4ab9421bd3102a95f404ff45cf5e933');
         imageData.append('image', event.target.files[0])
 
         axios.post('https://api.imgbb.com/1/upload', imageData)
