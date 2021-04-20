@@ -16,9 +16,9 @@ const Service = () => {
 
     return (
         <section className="service-container">
-            <div className="text-center mt-5">
-                <h5>Service</h5>
-                <h1>Our Service</h1>
+            <div className="text-center mt-5 text-primary">
+            
+                <h1>Book Your Place</h1>
                 <div className="d-flex justify-content-center">
                     <div className="row w-75">
                         {

@@ -8,18 +8,18 @@ import ProjectDetails from '../ProjectDetails/ProjectDetails';
 const projectData = [
     {
         image: project1,
-        season: 'Spring',
-        couple: 'Brad & Liza'
+        season: 'Winter',
+        place: 'Sylhet'
     },
     {
         image: project2,
-        season: 'Summer',
-        couple: 'Robert & Kyle'
+        season: 'Spring',
+        place: 'Himachal'
     },
     {
         image: project3,
-        season: 'Winter',
-        couple: 'Jonson & Ema'
+        season: 'Summer',
+        place: 'Austria'
     }
 ]
 
@@ -28,8 +28,8 @@ const Project = () => {
     return (
         <section className="service-container">
             <div className="text-center mt-5">
-                <h5>PROJECTS</h5>
-                <h1 className="text-danger">Browse Our Recent Projects</h1>
+                <h5><strong>TOURS</strong></h5>
+                <h1 className="text-primary">Our Recent Tours</h1>
                 <div className="d-flex justify-content-center">
                     <div className="row w-75">
                         {

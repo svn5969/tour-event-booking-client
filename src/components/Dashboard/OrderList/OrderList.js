@@ -19,6 +19,17 @@ const OrderList = () => {
             <div className="col-md-8 col-sm-12 col-12 d-flex justify-content-center ml-5 mt-5 pt-5 pb-5">
                 <div>
                     <h1 className="text-center mb-5">Order List</h1>
+                    <table class="table table-dark">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Email</th>
+                    </tr>
+                </thead>
+               
+            </table>
                     {
                        orderList && orderList.map(order =>  <OrderListDetails order={order}></OrderListDetails>)
                     }

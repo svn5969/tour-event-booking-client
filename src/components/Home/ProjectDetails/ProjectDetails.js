@@ -6,7 +6,7 @@ const ProjectDetails = ({ project }) => {
             <div className="mt-5">
                 <img src={project.image} alt="" />
                 <h4 className="mt-4 mb-4">{project.season}</h4>
-                <h3 className="text-secondary">{project.couple}</h3>
+                <h3 className="text-secondary">{project.place}</h3>
             </div>
         </div>
     );

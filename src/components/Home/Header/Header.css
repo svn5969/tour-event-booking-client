@@ -25,7 +25,7 @@
             animation: line 1s;
   } */
   .menu-3 li:hover a {
-    color: #ff011b;
+    color: #ffbb01;
   }
   .menu-3 li:not(:last-child) {
     margin-right: 30px;

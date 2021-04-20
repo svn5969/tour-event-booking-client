@@ -1,5 +1,8 @@
 import React from 'react';
 import './Contact.css';
+import guide from '../../Image/tour-guide-service-250x250.png'
+
+
 
 
 const Contact = () => {
@@ -11,10 +14,12 @@ const Contact = () => {
                         <h1 class="app-title">Contact With Us</h1>
                     </div>
                     <div class="screen">
+                        
                         <div class="screen-body">
                             <div class="screen-body-item left">
                                 <div class="app-title">
                                     <span>CONTACT FORM</span>
+                                    <img src={guide} alt=""/>
                                 </div>
                             </div>
                             <div class="screen-body-item">

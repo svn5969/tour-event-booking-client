@@ -5,18 +5,11 @@ const OrderListDetails = ({ order }) => {
     const { name, price, email } = order.data;
     return (
         <div>
-            <table class="table table-dark">
-                <thead>
-                    <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Name</th>
-                        <th scope="col">Price</th>
-                        <th scope="col">Email</th>
-                    </tr>
-                </thead>
+            <table class="table ">
+               
                 <tbody>
                     <tr>
-                        <th scope="row">1</th>
+                        <th scope="row">*</th>
                         <td>{name}</td>
                         <td>{price}</td>
                         <td>{email}</td>

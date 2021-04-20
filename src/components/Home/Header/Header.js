@@ -13,10 +13,10 @@ const Header = () => {
     return (
         <section className="container">
             <Navbar expand="lg">
-                <Navbar.Brand as={Link} to="/"><img style={{height:'40px',width:'40px'}} class="logo" src={logo} alt=""/></Navbar.Brand>
+                <Navbar.Brand as={Link} to="/"><img class="logo mb-5" src={logo} alt=""/></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ml-auto" class="style-3 menu-3">
+                    <Nav className="ml-auto mb-4" class="style-3 menu-3">
                         <ul class="menu-3">
                             <Nav.Link as={Link} to="/"><li><a href="/">Home</a></li></Nav.Link>
                             <Nav.Link as={Link} to=""><li><a href="/">Service</a></li></Nav.Link>

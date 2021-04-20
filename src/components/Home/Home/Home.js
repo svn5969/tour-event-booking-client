@@ -7,12 +7,16 @@ import Project from '../Project/Project';
 import Review from '../Review/Review';
 import Service from '../Service/Service';
 // import Slider from '../Slider/Slider';
+import './Home.css'
 
 const Home = () => {
     return (
         <div>
+            <div className="home">
             <Header/>
             <HeaderMain/>
+            </div>
+           
             {/* <Slider/> */}
             <Service/>
             <Project/>
